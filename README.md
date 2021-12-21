@@ -277,10 +277,93 @@ VAB = 64.5 V
 
         Dado a que la resistencia es inversamente proporcional al voltaje, el voltaje mayor será el que determine la mínima carga, en este caso, el de 1000 V
 
+19. El voltímetro descrito en el problema 36 se utiliza para medir voltaje entre los extremos de R4 en la figura 7-62(a).
+(a) ¿Qué intervalo se deberá utilizar?
+Entre la fuente de voltaje de 5v y la R4
+(b) ¿En cuánto se reduce el voltaje medido por el medidor con respecto al voltaje real?
+El error aproximado es de 0.
+
+20. Para el circuito mostrado en la figura 7-77, calcule
+(a) La resistencia total entre las terminales de la fuente
+
+![image](https://user-images.githubusercontent.com/94011974/146930327-1d734fff-f3f4-4afa-8d17-c020e6c02b6f.png)
+
+(b) La corriente total suministrada por la fuente
+
+![image](https://user-images.githubusercontent.com/94011974/146930452-ae6664c9-f5e0-42b9-81c1-89d1a1e034bf.png)
+
+(c) La corriente a través del resistor de 910 Æ
+
+![image](https://user-images.githubusercontent.com/94011974/146930611-42bbf7db-d011-4f34-a464-7df672b2a66f.png)
+
+(d) El voltaje desde el punto A hasta el punto B
+
+![image](https://user-images.githubusercontent.com/94011974/146930646-56f61507-6bea-4646-8be7-564d36f383bd.png)
+
+21. Determine la resistencia total entre las terminales A y B de la red en escalera de la figura 7-79. Asimismo, calcule la corriente en cada rama con 10 V entre A y B.
+
+![image](https://user-images.githubusercontent.com/94011974/146930829-ff242f54-4a67-4ac0-b901-d3c60614e977.png)
+
+22. Determine IT y VSALIDA en la figura 7-80.
+
+![image](https://user-images.githubusercontent.com/94011974/146930880-8ac5e6a8-a21d-4a6b-88f6-f28c6eaf30a3.png)
+
+![image](https://user-images.githubusercontent.com/94011974/146930953-ff5f5774-0e56-48a6-a8d0-249437129cce.png)
+
+23. Repita el problema 44 para las siguientes condiciones
+(a) SW3 y SW4 conectados a +12 V, SW1 y SW2 a tierra
+
+![image](https://user-images.githubusercontent.com/94011974/146931197-3d00d8b4-6c97-4cec-910d-8196eda86b62.png)
+
+(b) SW3 y SW1 conectados a +12 V, SW2 y SW4 a tierra
+
+![image](https://user-images.githubusercontent.com/94011974/146931228-02bca55a-2b31-442d-aba6-188d55d194bd.png)
+
+(c) Todos los interruptores conectados a +12 V
+
+![image](https://user-images.githubusercontent.com/94011974/146931266-d984ddc1-c0cc-44fc-9098-70c70bb924b5.png)
+
+24. Una celda de carga tiene cuatro medidores de deformación idénticos con una resistencia ilimitada de 120,000 Æ para cada medidor (un valor estándar). Cuando se agrega una carga, los medidores a tensión incrementan su resistencia en 60 mÆ, a 120,060 Æ, y los medidores a compresión disminuyen su resistencia en 60 mÆ, a 119.940 Æ, como se muestra en la figura 7-82. ¿Cuál es el voltaje de salida con carga?
+
+![image](https://user-images.githubusercontent.com/94011974/146931403-3bff8df0-5da5-44e2-bf19-a93f9bacd7ef.png)
+
+25. ¿Es correcta la lectura del voltímetro de la figura 7-84?
+
+Si
+
+26. En la figura 7-86 hay una falla. Con base en las indicaciones del medidor, determine cuál es la falla
+
+La falla es la medición incorrecta con instrumentos.
+
+27. Revise las lecturas de los medidores de la figura 7-88 y localice cualquier falla que pudiera existir
+
+Existen cables cruzados mala ubicación de los medidores y por último mala ejecución.
 
 Capitulo 8 
 
+1.Una fuente de voltaje tiene los valores VS = 300 V y RS = 50 Æ. Conviértala en una fuente de corriente equivalente.
 
+![image](https://user-images.githubusercontent.com/94011974/146932072-0776e9c1-17ac-4b76-a00d-956dbaa323a6.png)
+
+2.Una batería tipo D nueva tiene entre sus terminales un voltaje de 1.6 V y puede suministrar hasta 8.0 A un cortocuito durante muy poco tiempo. ¿Cuál es la resistencia interna de la batería?
+
+![image](https://user-images.githubusercontent.com/94011974/146932046-91efae58-4218-4b33-ad8b-2f263eeb3d99.png)
+
+3.Una fuente de corriente tiene una IS de 600 mA y una RS de 1.2 kÆ. Conviértala en una fuente de voltaje equivalente.
+
+![image](https://user-images.githubusercontent.com/94011974/146932022-cf1015f8-05ce-4ad5-8526-ea0e05351b67.png)
+
+4.Con el método de superposición, encuentre la corriente a través de R5 en la figura 8-69
+
+![image](https://user-images.githubusercontent.com/94011974/146932006-c62d6ac3-c202-4458-aa20-747c89e48493.png)
+
+5.Con el teorema de superposición, determine la corriente a través de R3 en la figura 8-70.
+
+![image](https://user-images.githubusercontent.com/94011974/146931974-1f4f5783-3575-4ecf-8383-72a6b3bce333.png)
+
+6.En la figura 8-72 se muestra un circuito comparador. El voltaje de entrada, VENTRADA, se compara con el voltaje de referencia, VREFERENCIA, y se genera una salida negativa si VREFERENCIA > VENTRADA; de lo contrario es positiva. El comparador no carga a una u otra entrada. Si R2 es de 1.0 kÆ, ¿cuál es el intervalo del voltaje de referencia?
+
+![image](https://user-images.githubusercontent.com/94011974/146931954-63dcb6f0-b047-4187-b05c-6c166ee9bf21.png)
 
 7. Determine el voltaje del punto A al punto B en la figura 8-73
 
@@ -407,90 +490,7 @@ Redibujando:
     Se reemplaza la fuente de voltaje con un cortocircuito:
     RN = (3.2 kΩ * 2.2 kΩ / 3.2 kΩ + 2.2 kΩ) = 1.3 kΩ
 
-37. El voltímetro descrito en el problema 36 se utiliza para medir voltaje entre los extremos de R4 en la figura 7-62(a).
-(a) ¿Qué intervalo se deberá utilizar?
-Entre la fuente de voltaje de 5v y la R4
-(b) ¿En cuánto se reduce el voltaje medido por el medidor con respecto al voltaje real?
-El error aproximado es de 0.
-
-39. Para el circuito mostrado en la figura 7-77, calcule
-(a) La resistencia total entre las terminales de la fuente
-
-![image](https://user-images.githubusercontent.com/94011974/146930327-1d734fff-f3f4-4afa-8d17-c020e6c02b6f.png)
-
-(b) La corriente total suministrada por la fuente
-
-![image](https://user-images.githubusercontent.com/94011974/146930452-ae6664c9-f5e0-42b9-81c1-89d1a1e034bf.png)
-
-(c) La corriente a través del resistor de 910 Æ
-
-![image](https://user-images.githubusercontent.com/94011974/146930611-42bbf7db-d011-4f34-a464-7df672b2a66f.png)
-
-(d) El voltaje desde el punto A hasta el punto B
-
-![image](https://user-images.githubusercontent.com/94011974/146930646-56f61507-6bea-4646-8be7-564d36f383bd.png)
-
-41. Determine la resistencia total entre las terminales A y B de la red en escalera de la figura 7-79. Asimismo, calcule la corriente en cada rama con 10 V entre A y B.
-
-![image](https://user-images.githubusercontent.com/94011974/146930829-ff242f54-4a67-4ac0-b901-d3c60614e977.png)
-
-43. Determine IT y VSALIDA en la figura 7-80.
-
-![image](https://user-images.githubusercontent.com/94011974/146930880-8ac5e6a8-a21d-4a6b-88f6-f28c6eaf30a3.png)
-
-![image](https://user-images.githubusercontent.com/94011974/146930953-ff5f5774-0e56-48a6-a8d0-249437129cce.png)
-
-45. Repita el problema 44 para las siguientes condiciones
-(a) SW3 y SW4 conectados a +12 V, SW1 y SW2 a tierra
-
-![image](https://user-images.githubusercontent.com/94011974/146931197-3d00d8b4-6c97-4cec-910d-8196eda86b62.png)
-
-(b) SW3 y SW1 conectados a +12 V, SW2 y SW4 a tierra
-
-![image](https://user-images.githubusercontent.com/94011974/146931228-02bca55a-2b31-442d-aba6-188d55d194bd.png)
-
-(c) Todos los interruptores conectados a +12 V
-
-![image](https://user-images.githubusercontent.com/94011974/146931266-d984ddc1-c0cc-44fc-9098-70c70bb924b5.png)
-
-47. Una celda de carga tiene cuatro medidores de deformación idénticos con una resistencia ilimitada de 120,000 Æ para cada medidor (un valor estándar). Cuando se agrega una carga, los medidores a tensión incrementan su resistencia en 60 mÆ, a 120,060 Æ, y los medidores a compresión disminuyen su resistencia en 60 mÆ, a 119.940 Æ, como se muestra en la figura 7-82. ¿Cuál es el voltaje de salida con carga?
-
-![image](https://user-images.githubusercontent.com/94011974/146931403-3bff8df0-5da5-44e2-bf19-a93f9bacd7ef.png)
-
-49. ¿Es correcta la lectura del voltímetro de la figura 7-84?
-Si
-51. En la figura 7-86 hay una falla. Con base en las indicaciones del medidor, determine cuál es la falla
-La falla es la medición incorrecta con instrumentos.
-53. Revise las lecturas de los medidores de la figura 7-88 y localice cualquier falla que pudiera existir
-Existen cables cruzados mala ubicación de los medidores y por último mala ejecución.
-
-
-1.Una fuente de voltaje tiene los valores VS = 300 V y RS = 50 Æ. Conviértala en una fuente de corriente equivalente.
-
-![image](https://user-images.githubusercontent.com/94011974/146932072-0776e9c1-17ac-4b76-a00d-956dbaa323a6.png)
-
-3.Una batería tipo D nueva tiene entre sus terminales un voltaje de 1.6 V y puede suministrar hasta 8.0 A un cortocuito durante muy poco tiempo. ¿Cuál es la resistencia interna de la batería?
-
-![image](https://user-images.githubusercontent.com/94011974/146932046-91efae58-4218-4b33-ad8b-2f263eeb3d99.png)
-
-5.Una fuente de corriente tiene una IS de 600 mA y una RS de 1.2 kÆ. Conviértala en una fuente de voltaje equivalente.
-
-![image](https://user-images.githubusercontent.com/94011974/146932022-cf1015f8-05ce-4ad5-8526-ea0e05351b67.png)
-
-7.Con el método de superposición, encuentre la corriente a través de R5 en la figura 8-69
-
-![image](https://user-images.githubusercontent.com/94011974/146932006-c62d6ac3-c202-4458-aa20-747c89e48493.png)
-
-9.Con el teorema de superposición, determine la corriente a través de R3 en la figura 8-70.
-
-![image](https://user-images.githubusercontent.com/94011974/146931974-1f4f5783-3575-4ecf-8383-72a6b3bce333.png)
-
-11.En la figura 8-72 se muestra un circuito comparador. El voltaje de entrada, VENTRADA, se compara con el voltaje de referencia, VREFERENCIA, y se genera una salida negativa si VREFERENCIA > VENTRADA; de lo contrario es positiva. El comparador no carga a una u otra entrada. Si R2 es de 1.0 kÆ, ¿cuál es el intervalo del voltaje de referencia?
-
-![image](https://user-images.githubusercontent.com/94011974/146931954-63dcb6f0-b047-4187-b05c-6c166ee9bf21.png)
-
-
-27. Con el teorema de Norton, determine el voltaje entre los extremos de R5 en la figura 8-78.
+13. Con el teorema de Norton, determine el voltaje entre los extremos de R5 en la figura 8-78.
 
 ![image](https://user-images.githubusercontent.com/94153604/146936734-ebe389dc-84a5-41b8-a661-b5b8688312ce.png)
 
@@ -498,7 +498,7 @@ Existen cables cruzados mala ubicación de los medidores y por último mala ejec
 
 ![image](https://user-images.githubusercontent.com/94153604/146937020-629562df-25e7-4867-8e06-7d03c19fe45e.png)
 
-29. Determine el circuito equivalente Norton para el puente que aparece en la figura 8-81 sin RL.
+14. Determine el circuito equivalente Norton para el puente que aparece en la figura 8-81 sin RL.
 
 ![image](https://user-images.githubusercontent.com/94153604/146937074-891c31ac-4db0-4dd0-b995-fda3c297e87d.png)
 
@@ -518,7 +518,7 @@ VTH = 0.0935
 
 ![image](https://user-images.githubusercontent.com/94153604/146937245-eaa7d3da-6a15-4579-893e-858a064a2bb2.png)
 
-31. Aplique el teorema de Norton al circuito de la figura 8-84.
+15. Aplique el teorema de Norton al circuito de la figura 8-84.
 
 ![image](https://user-images.githubusercontent.com/94153604/146937324-488426bf-9d76-4188-9850-9bd857c35e04.png)
 
@@ -530,7 +530,7 @@ VTH = 0.0935
 
 ![image](https://user-images.githubusercontent.com/94153604/146937450-c8c460ee-b280-4d8e-86a0-f96498cca321.png)
 
-33. En el circuito de la figura 8-86, determine el valor de RL para transferencia de potencia máxima.
+16. En el circuito de la figura 8-86, determine el valor de RL para transferencia de potencia máxima.
 
 ![image](https://user-images.githubusercontent.com/94153604/146937528-74df686b-5a6b-47d1-8685-28d917feaa7c.png)
 
@@ -538,7 +538,7 @@ VTH = 0.0935
 
 ![image](https://user-images.githubusercontent.com/94153604/146937590-4b460552-b671-4116-9225-b0ec9d95a939.png)
 
-35. ¿Cuáles son los valores de R4 y RTH cuando la potencia máxima se transfiere de la fuente thevenizada a la red en configuración de escalera de la figura 8-87?
+17. ¿Cuáles son los valores de R4 y RTH cuando la potencia máxima se transfiere de la fuente thevenizada a la red en configuración de escalera de la figura 8-87?
 
 ![image](https://user-images.githubusercontent.com/94153604/146937661-7961a385-88de-4e72-ab8b-e549a1404e4d.png)
 
@@ -546,7 +546,7 @@ VTH = 0.0935
 
 ![image](https://user-images.githubusercontent.com/94153604/146937718-06bcf39b-a81a-4d04-b6db-4c0621ce1c1a.png)
 
-37. En la figura 8-89, convierta cada red Y en una red delta.
+18. En la figura 8-89, convierta cada red Y en una red delta.
 
 ![image](https://user-images.githubusercontent.com/94153604/146937760-b445eb9e-c67f-415c-b7ad-f374d2973a9b.png)
 ![image](https://user-images.githubusercontent.com/94153604/146937769-bde89bd6-59ac-4fe7-9c76-54dd385e55df.png)
