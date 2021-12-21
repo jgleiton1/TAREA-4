@@ -554,6 +554,19 @@ VTH = 0.0935
 ![image](https://user-images.githubusercontent.com/94153604/146937784-c3a4fa0f-8e92-4962-baf4-2286e74e67f0.png)
 ![image](https://user-images.githubusercontent.com/94153604/146937800-a85a48f8-34e4-4ad4-a8c7-d089e6b44fc7.png)
 
+4. Video
+
+
+5. Conclusiones 
+
+El circuito en serie-paralelo   trata de la combinación  de diferentes trayectorias para al corrientes, tanto en paralelo como en serie, por ello se debe analizar de manera contundente la manera en que estan estos elementos del circuito en relación  a sus funciones en serie y paralelo. Interviene  resistencia total, corriente total, caidas de voltaje ,  entre otras  funciones que se pueden aplicar según el análisis que se realice del circuito. 
+
+Teoremas de circuitos y conversiones  se trata de  Analizar el efecto de carga en una fuente de voltaje práctica, puesto que cuando la fuente de voltaje de cd idealmente proporciona un voltaje constante a una carga, incluso cuando la resistencia de  está varia.Se encuentra presente la fuente de voltaje cd, la carga de la fuente de voltaje, la fuent4e de corriente el teorema de superposición , teorema de norton y de transferecnia de potencia máxima. 
+
+Para la resolución de ejercicios se debe realizar un buen analisis del circuito identificando los  componentes que  se encuentran en paralelo y los que esta en serie , puesto que esto dependera para la aplicación de las formulas  Iremanente = IT - IRL1 - IRL2,  RX=RV*(R2/R4) y  Vsalida = Rtermisor * (Vs/4R) y de igual manera las formulas para realizar las conversiones de Delta a Y o de Y a Delta. 
+
+6. Bibliografía
+
 
 
 
