@@ -16,6 +16,9 @@ Analizar de manera correcta cada uno de los ejercicios y motrar su solución.
 
 2. Marco Teórico
 
+![image](https://user-images.githubusercontent.com/93958596/146876366-a399c740-97f4-435d-99c2-ea2500ffd533.png)
+
+![image](https://user-images.githubusercontent.com/93958596/146876383-5ce4ead7-22db-4a11-a7e4-c7261761f8a6.png)
 
 3. Explicación y resolución de ejercicios 
 
@@ -214,6 +217,29 @@ RT = 433.7
 VAB = (560 / 433.7) x 50 
 
 VAB = 64.5 V 
+
+10. Determine la resistencia del circuito mostrado en la figura 7-68 como se ve desde la fuente de voltaje
+
+![image](https://user-images.githubusercontent.com/93958596/146876443-2967d03f-aecb-4423-8471-b985aa851813.png)
+
+    R3, R2 y R1 están en serie: Req1 = 56 kΩ + 560 kΩ + 100 kΩ = 716 kΩ
+    R5 y R6 están en serie: Req2 = 1000 kΩ + 100 kΩ = 1100 kΩ 
+    Req1 y Req2 están en paralelo: Req3 = (716 kΩ * 1100 kΩ) / (716 kΩ + 1100 kΩ) = 433.7 kΩ
+    Req3 y R4 están en paralelo: Rt = (433.7 kΩ * 0.001 kΩ) / (433.7 kΩ + 0.001 kΩ) = 302.5 kΩ
+    
+11.(a)Determine el valor de R2 en la figura 7-70. (b)Encuentre la potencia en R2.
+
+![image](https://user-images.githubusercontent.com/93958596/146876599-f23fc7e5-3922-46d2-9809-fc7cb6ca4bd8.png)
+
+    a. Hallando la intensidad en R1: I1 = VS / R1 = 220 V / 47 kΩ = 2.33 mA
+    Con la ley las corrientes de Kirchhoff en donde: It = I1 + I2 = 2.33 mA + 1mA = 3.33 mA
+    Hallando el VR3= 3.33 mA * 33 = 109.89 V
+    El voltaje de R1 es: VS – Vr3 = 220 V – 109.89 V = 110.11 V
+    Como R1 y R2 están en paralelo su caída de voltaje es igual: 110.11 V
+    Aplicando la ley de Ohm: R2 = 110.11 V / 1 mA = 110.11 kΩ 
+
+    b. P = V * I = 110.11 V * 1 mA = 110.11 mW
+
 
 Capitulo 8 
 
