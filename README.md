@@ -464,7 +464,6 @@ La falla es la medición incorrecta con instrumentos.
 53. Revise las lecturas de los medidores de la figura 7-88 y localice cualquier falla que pudiera existir
 Existen cables cruzados mala ubicación de los medidores y por último mala ejecución.
 
-CAPITULO 8
 
 1.Una fuente de voltaje tiene los valores VS = 300 V y RS = 50 Æ. Conviértala en una fuente de corriente equivalente.
 
@@ -489,4 +488,73 @@ CAPITULO 8
 11.En la figura 8-72 se muestra un circuito comparador. El voltaje de entrada, VENTRADA, se compara con el voltaje de referencia, VREFERENCIA, y se genera una salida negativa si VREFERENCIA > VENTRADA; de lo contrario es positiva. El comparador no carga a una u otra entrada. Si R2 es de 1.0 kÆ, ¿cuál es el intervalo del voltaje de referencia?
 
 ![image](https://user-images.githubusercontent.com/94011974/146931954-63dcb6f0-b047-4187-b05c-6c166ee9bf21.png)
+
+
+27. Con el teorema de Norton, determine el voltaje entre los extremos de R5 en la figura 8-78.
+
+![image](https://user-images.githubusercontent.com/94153604/146936734-ebe389dc-84a5-41b8-a661-b5b8688312ce.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146936763-7963a87b-0ac0-404c-8182-4ec197dc59fb.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937020-629562df-25e7-4867-8e06-7d03c19fe45e.png)
+
+29. Determine el circuito equivalente Norton para el puente que aparece en la figura 8-81 sin RL.
+
+![image](https://user-images.githubusercontent.com/94153604/146937074-891c31ac-4db0-4dd0-b995-fda3c297e87d.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937084-0867f9ef-28fc-4525-8ab5-f2c54f8798c2.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937095-d17bc53d-0f6a-4d01-b04d-7a24f559174f.png)
+
+RN = 697.5 + 487.73
+
+RN = 1174.3 
+
+VTH = 0.6875 – 0.594
+
+VTH = 0.0935
+
+![image](https://user-images.githubusercontent.com/94153604/146937228-cc6b53e9-3f4e-4e6b-894d-36d41c29d292.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937245-eaa7d3da-6a15-4579-893e-858a064a2bb2.png)
+
+31. Aplique el teorema de Norton al circuito de la figura 8-84.
+
+![image](https://user-images.githubusercontent.com/94153604/146937324-488426bf-9d76-4188-9850-9bd857c35e04.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937338-c554e304-12c3-49bb-8b45-ab64dfb1edfe.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937367-dbbb1d88-5648-4b94-ab80-5d861122a5ba.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937415-a06cd766-ecc1-4afd-87b6-997c6e420e4a.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937450-c8c460ee-b280-4d8e-86a0-f96498cca321.png)
+
+33. En el circuito de la figura 8-86, determine el valor de RL para transferencia de potencia máxima.
+
+![image](https://user-images.githubusercontent.com/94153604/146937528-74df686b-5a6b-47d1-8685-28d917feaa7c.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937547-f65b55b9-0eca-409c-9c68-6ff775513ccb.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937590-4b460552-b671-4116-9225-b0ec9d95a939.png)
+
+35. ¿Cuáles son los valores de R4 y RTH cuando la potencia máxima se transfiere de la fuente thevenizada a la red en configuración de escalera de la figura 8-87?
+
+![image](https://user-images.githubusercontent.com/94153604/146937661-7961a385-88de-4e72-ab8b-e549a1404e4d.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937676-43676d3f-f9ee-4f22-aede-e2441f2f44d1.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937718-06bcf39b-a81a-4d04-b6db-4c0621ce1c1a.png)
+
+37. En la figura 8-89, convierta cada red Y en una red delta.
+
+![image](https://user-images.githubusercontent.com/94153604/146937760-b445eb9e-c67f-415c-b7ad-f374d2973a9b.png)
+![image](https://user-images.githubusercontent.com/94153604/146937769-bde89bd6-59ac-4fe7-9c76-54dd385e55df.png)
+
+![image](https://user-images.githubusercontent.com/94153604/146937784-c3a4fa0f-8e92-4962-baf4-2286e74e67f0.png)
+![image](https://user-images.githubusercontent.com/94153604/146937800-a85a48f8-34e4-4ad4-a8c7-d089e6b44fc7.png)
+
+
+
+
 
