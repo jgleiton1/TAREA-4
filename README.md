@@ -567,7 +567,5 @@ Para la resolución de ejercicios se debe realizar un buen analisis del circuito
 
 6. Bibliografía
 
-
-
-
+Floyd, T. (2007). Principio de Circuitos Eléctricos. Pearson, Prentice Hall
 
