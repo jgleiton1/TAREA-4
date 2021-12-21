@@ -415,36 +415,46 @@ El error aproximado es de 0.
 
 39. Para el circuito mostrado en la figura 7-77, calcule
 (a) La resistencia total entre las terminales de la fuente
+
 ![image](https://user-images.githubusercontent.com/94011974/146930327-1d734fff-f3f4-4afa-8d17-c020e6c02b6f.png)
 
 (b) La corriente total suministrada por la fuente
+
 ![image](https://user-images.githubusercontent.com/94011974/146930452-ae6664c9-f5e0-42b9-81c1-89d1a1e034bf.png)
 
 (c) La corriente a través del resistor de 910 Æ
+
 ![image](https://user-images.githubusercontent.com/94011974/146930611-42bbf7db-d011-4f34-a464-7df672b2a66f.png)
 
 (d) El voltaje desde el punto A hasta el punto B
+
 ![image](https://user-images.githubusercontent.com/94011974/146930646-56f61507-6bea-4646-8be7-564d36f383bd.png)
 
 41. Determine la resistencia total entre las terminales A y B de la red en escalera de la figura 7-79. Asimismo, calcule la corriente en cada rama con 10 V entre A y B.
+
 ![image](https://user-images.githubusercontent.com/94011974/146930829-ff242f54-4a67-4ac0-b901-d3c60614e977.png)
 
 43. Determine IT y VSALIDA en la figura 7-80.
+
 ![image](https://user-images.githubusercontent.com/94011974/146930880-8ac5e6a8-a21d-4a6b-88f6-f28c6eaf30a3.png)
 
 ![image](https://user-images.githubusercontent.com/94011974/146930953-ff5f5774-0e56-48a6-a8d0-249437129cce.png)
 
 45. Repita el problema 44 para las siguientes condiciones
 (a) SW3 y SW4 conectados a +12 V, SW1 y SW2 a tierra
+
 ![image](https://user-images.githubusercontent.com/94011974/146931197-3d00d8b4-6c97-4cec-910d-8196eda86b62.png)
 
 (b) SW3 y SW1 conectados a +12 V, SW2 y SW4 a tierra
+
 ![image](https://user-images.githubusercontent.com/94011974/146931228-02bca55a-2b31-442d-aba6-188d55d194bd.png)
 
 (c) Todos los interruptores conectados a +12 V
+
 ![image](https://user-images.githubusercontent.com/94011974/146931266-d984ddc1-c0cc-44fc-9098-70c70bb924b5.png)
 
 47. Una celda de carga tiene cuatro medidores de deformación idénticos con una resistencia ilimitada de 120,000 Æ para cada medidor (un valor estándar). Cuando se agrega una carga, los medidores a tensión incrementan su resistencia en 60 mÆ, a 120,060 Æ, y los medidores a compresión disminuyen su resistencia en 60 mÆ, a 119.940 Æ, como se muestra en la figura 7-82. ¿Cuál es el voltaje de salida con carga?
+
 ![image](https://user-images.githubusercontent.com/94011974/146931403-3bff8df0-5da5-44e2-bf19-a93f9bacd7ef.png)
 
 49. ¿Es correcta la lectura del voltímetro de la figura 7-84?
@@ -457,15 +467,19 @@ Existen cables cruzados mala ubicación de los medidores y por último mala ejec
 CAPITULO 8
 
 1.Una fuente de voltaje tiene los valores VS = 300 V y RS = 50 Æ. Conviértala en una fuente de corriente equivalente.
+
 ![image](https://user-images.githubusercontent.com/94011974/146932072-0776e9c1-17ac-4b76-a00d-956dbaa323a6.png)
 
 3.Una batería tipo D nueva tiene entre sus terminales un voltaje de 1.6 V y puede suministrar hasta 8.0 A un cortocuito durante muy poco tiempo. ¿Cuál es la resistencia interna de la batería?
+
 ![image](https://user-images.githubusercontent.com/94011974/146932046-91efae58-4218-4b33-ad8b-2f263eeb3d99.png)
 
 5.Una fuente de corriente tiene una IS de 600 mA y una RS de 1.2 kÆ. Conviértala en una fuente de voltaje equivalente.
+
 ![image](https://user-images.githubusercontent.com/94011974/146932022-cf1015f8-05ce-4ad5-8526-ea0e05351b67.png)
 
 7.Con el método de superposición, encuentre la corriente a través de R5 en la figura 8-69
+
 ![image](https://user-images.githubusercontent.com/94011974/146932006-c62d6ac3-c202-4458-aa20-747c89e48493.png)
 
 9.Con el teorema de superposición, determine la corriente a través de R3 en la figura 8-70.
@@ -473,5 +487,6 @@ CAPITULO 8
 ![image](https://user-images.githubusercontent.com/94011974/146931974-1f4f5783-3575-4ecf-8383-72a6b3bce333.png)
 
 11.En la figura 8-72 se muestra un circuito comparador. El voltaje de entrada, VENTRADA, se compara con el voltaje de referencia, VREFERENCIA, y se genera una salida negativa si VREFERENCIA > VENTRADA; de lo contrario es positiva. El comparador no carga a una u otra entrada. Si R2 es de 1.0 kÆ, ¿cuál es el intervalo del voltaje de referencia?
+
 ![image](https://user-images.githubusercontent.com/94011974/146931954-63dcb6f0-b047-4187-b05c-6c166ee9bf21.png)
 
