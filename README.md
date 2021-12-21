@@ -102,33 +102,57 @@ VC = 3.05 V
 ![image](https://user-images.githubusercontent.com/94153604/146865665-ce694320-88bc-4a36-9079-3dd48df3b148.png)
 
 IT = (3/779.4) 
+
 IT = 0.038 mA
+
 I2 = (779.4/180) x 0.038
+
 I2 = 0.016 mA
+
 I3 = (779.4/330) x 0.038
+
 I3 = 0.008 mA
+
 I4 = (779.4/680) x 0.038
+
 I4 = 0.004 mA
+
 VA = (680 / 779.4) x 3 
+
 VA = 2.62 V
+
 VB = (180 / 779.4) x 3 
+
 VB = 0.69 V
+
 VC = (330 / 779.4) x 3 
+
 VC = 1.27 V
+
 VD = (680 / 779.4) x 3 
+
 VD = 2.62 V
 
 ![image](https://user-images.githubusercontent.com/94153604/146865704-49cb38bc-45df-4d65-86d2-226fcc066bba.png)
 
 IT = (6/1000) 
+
 IT = 0.005 mA
+
 I2 = 5/6200
+
 I2 = 0.005 mA
+
 I3 = 5/3300 
+
 I3 = 0.0015 mA
+
 I4 = 5/10000
+
 I4 = 0.0005 mA
+
 I5 = 5/5600
+
 I5 = 0.00089 mA
 
 7. Encuentre RT para todas las combinaciones de los interruptores de la figura 7-66.
@@ -136,9 +160,13 @@ I5 = 0.00089 mA
 ![image](https://user-images.githubusercontent.com/94153604/146865742-ca566344-d9bc-482f-8376-b0111ab01a1a.png)
 
 RT1 = 100 + 220
+
 RT1 = 320
+
 RT2 = 100
+
 RT3 = 2200 + 220
+
 RT3 = 2420
 
 8. Determine el voltaje en cada nodo con respecto a tierra en la figura 7-67.
@@ -146,19 +174,33 @@ RT3 = 2420
 ![image](https://user-images.githubusercontent.com/94153604/146865813-1cb4f43f-9345-464e-b611-6b7d9c113589.png)
 
 RT = R2 + R1 || R3 + R4||R6 + R5
+
 RT = 4.7 + 0.8 + 0.85 + 1
+
 RT = 7.35
+
 RA = 2.8
+
 VA = (2.8 / 7.35) x 100 
+
 VA = 38.09 V 
+
 RB = 0.84
+
 VA = (0.84 / 7.35) x 100 
+
 VA = 11.48 V
+
 RC = 0.64
+
 VA = (0.64 / 7.35) x 100 
+
 VA = 8.70 V
+
 RD = 1
+
 VA = (1 / 7.35) x 100 
+
 VA = 13.6 V
 
 9. En la figura 7-68, ¿cómo determinaría el voltaje entre los extremos de R2 por medición sin conectar directamente un medidor entre los extremos del resistor?
@@ -166,8 +208,11 @@ VA = 13.6 V
 ![image](https://user-images.githubusercontent.com/94153604/146865865-f8a2e9ee-0a7c-49dd-95f0-d2ca6858b2e6.png)
 
 RT = (R1 + R2 + R3) || (R5 + R6)
+
 RT = 433.7
+
 VAB = (560 / 433.7) x 50 
+
 VAB = 64.5 V 
 
 Capitulo 8 
