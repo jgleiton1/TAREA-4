@@ -222,24 +222,187 @@ VAB = 64.5 V
 
 ![image](https://user-images.githubusercontent.com/93958596/146876443-2967d03f-aecb-4423-8471-b985aa851813.png)
 
-    R3, R2 y R1 están en serie: Req1 = 56 kΩ + 560 kΩ + 100 kΩ = 716 kΩ
-    R5 y R6 están en serie: Req2 = 1000 kΩ + 100 kΩ = 1100 kΩ 
-    Req1 y Req2 están en paralelo: Req3 = (716 kΩ * 1100 kΩ) / (716 kΩ + 1100 kΩ) = 433.7 kΩ
-    Req3 y R4 están en paralelo: Rt = (433.7 kΩ * 0.001 kΩ) / (433.7 kΩ + 0.001 kΩ) = 302.5 kΩ
+        R3, R2 y R1 están en serie: Req1 = 56 kΩ + 560 kΩ + 100 kΩ = 716 kΩ
+        R5 y R6 están en serie: Req2 = 1000 kΩ + 100 kΩ = 1100 kΩ 
+        Req1 y Req2 están en paralelo: Req3 = (716 kΩ * 1100 kΩ) / (716 kΩ + 1100 kΩ) = 433.7 kΩ
+        Req3 y R4 están en paralelo: Rt = (433.7 kΩ * 0.001 kΩ) / (433.7 kΩ + 0.001 kΩ) = 302.5 kΩ
     
 11.(a)Determine el valor de R2 en la figura 7-70. (b)Encuentre la potencia en R2.
 
 ![image](https://user-images.githubusercontent.com/93958596/146876599-f23fc7e5-3922-46d2-9809-fc7cb6ca4bd8.png)
 
-    a. Hallando la intensidad en R1: I1 = VS / R1 = 220 V / 47 kΩ = 2.33 mA
-    Con la ley las corrientes de Kirchhoff en donde: It = I1 + I2 = 2.33 mA + 1mA = 3.33 mA
-    Hallando el VR3= 3.33 mA * 33 = 109.89 V
-    El voltaje de R1 es: VS – Vr3 = 220 V – 109.89 V = 110.11 V
-    Como R1 y R2 están en paralelo su caída de voltaje es igual: 110.11 V
-    Aplicando la ley de Ohm: R2 = 110.11 V / 1 mA = 110.11 kΩ 
+        a. Hallando la intensidad en R1: I1 = VS / R1 = 220 V / 47 kΩ = 2.33 mA
+        Con la ley las corrientes de Kirchhoff en donde: It = I1 + I2 = 2.33 mA + 1mA = 3.33 mA
+        Hallando el VR3= 3.33 mA * 33 = 109.89 V
+        El voltaje de R1 es: VS – Vr3 = 220 V – 109.89 V = 110.11 V
+        Como R1 y R2 están en paralelo su caída de voltaje es igual: 110.11 V
+        Aplicando la ley de Ohm: R2 = 110.11 V / 1 mA = 110.11 kΩ 
 
-    b. P = V * I = 110.11 V * 1 mA = 110.11 mW
+        b. P = V * I = 110.11 V * 1 mA = 110.11 mW
+
+13. Encuentre la resistencia entre cada uno de los siguientes juegos de nodos mostrados en la figura 7-72: AB, BC y CD.
+
+![image](https://user-images.githubusercontent.com/93958596/146876822-ab6b1946-a028-4752-9423-79da68ea6968.png)
+
+        R1 y R2 están en serie: Req1 = 3.3 kΩ + 3.3 kΩ = 6.6 kΩ
+        R3 y R4 están en paralelo: Req2 = (3.3 kΩ * 3.3 kΩ) / (3.3 kΩ + 3.3 kΩ) = 1.65 kΩ
+        Req2 y R5 están en serie: Req3 = 1.65 kΩ + 3.3 kΩ = 4.95 kΩ
+        Resistencia de AB = Req1 = 6.6 kΩ
+        Resistencia de BC = Req2 = 1.65 kΩ
+        Resistencia de CD = 0 Ω
+        
+14. Un divisor de voltaje está compuesto por dos resistores de 56 kΩ y una fuente de 15 V. Calcule el voltaje de salida sin carga. ¿Cuál será el voltaje de salida si se conecta un resistor con carga de 1,0 MΩ a la salida?
+
+        Sin carga
+        Rt = (56 kΩ * 56 kΩ) / (56 kΩ + 56 kΩ) = 28 kΩ
+        Vx = (Rt / Rx) * Vs = (28 kΩ / 56 kΩ) * 15 V = 7.5 V 
+
+        Con carga
+        Rt = (28 kΩ * 1000 kΩ) / (28 kΩ + 1000 kΩ) = 27.24 kΩ
+        Vx = (Rt / Rx) * Vs = (27.24 kΩ / 56 kΩ) * 15 V = 7.296 V
+
+16. ¿Cuál de dos cargas, una de 10 kΩ y otra de 47 kΩ, provocará una disminución más pequeña en el voltaje de salida de un divisor de voltaje dado?
+
+        Dado a que la resistencia es inversamente proporcional al voltaje, la carga de mayor resistencia, es decir, 47 kΩ provocará una disminución de voltaje de salida.
+
+17. En la figura 7-74, determine el voltaje de salida con una carga de 33 kΩ conectada entre A y B.
+
+![image](https://user-images.githubusercontent.com/93958596/146877115-dc4f390d-05d6-4c17-9cf0-c9582fdee79e.png)
+
+        R2 y R3 están en serie por lo que: Req1 = 5.6 kΩ + 2.7 kΩ = 8.3 kΩ
+        Req1 está en paralelo con la carga de 33 kΩ, por lo que: Rt = (8.3 kΩ * 33 kΩ) / (8.3 kΩ + 33 kΩ) = 6.63 kΩ
+        Vx = (Rt / (R1 + Rt)) * Vs = (6.63 kΩ / (10 kΩ + 6.63 kΩ)) * 22 V = 8.77 V
+
+18. ¿En cuál de los siguientes intervalos de voltaje presentará un voltímetro la mínima carga que haya en un circuito? (a) 1 V (b) 10 V (c) 100 V (d) 1000 V
+
+        Dado a que la resistencia es inversamente proporcional al voltaje, el voltaje mayor será el que determine la mínima carga, en este caso, el de 1000 V
 
 
 Capitulo 8 
 
+
+
+7. Determine el voltaje del punto A al punto B en la figura 8-73
+
+![image](https://user-images.githubusercontent.com/93958596/146877345-e94a0ea3-570c-4155-bde3-a64c31140b3a.png)
+
+Redibujando:
+
+![image](https://user-images.githubusercontent.com/93958596/146877369-8ced4808-97f2-47f1-a3ce-b155ef6b6fc1.png)
+
+    R3 y R2 están en paralelo: Req1 = (33 kΩ * 56 kΩ) / (33 kΩ + 56 kΩ) = 20.76 kΩ
+
+![image](https://user-images.githubusercontent.com/93958596/146877414-5cda6ab4-5e8b-4095-b153-33706015ce64.png)
+
+    Hallando VTH = (20.76 kΩ / (82 kΩ + 20.76 kΩ + 91 kΩ)) * (75 V – 50 V) = 9.28 V
+    Pero en VTH hay:
+
+![image](https://user-images.githubusercontent.com/93958596/146877473-dee8a023-90a1-4194-941d-fc48dd3cfd25.png)
+
+    Por lo que V = 100 V – 9.28 V = 90.72 V
+    
+8. La figura 8-75 muestra dos redes en escalera. Determine la corriente producida por cada una de las baterías cuando se conectan las terminales A (A a A) y las terminales B (B a B)
+
+![image](https://user-images.githubusercontent.com/93958596/146877559-69b360cf-6482-409c-810b-d1b5180efaaf.png)
+
+    a)	El voltaje de A a B es igual al voltaje entre a y b:
+    
+![image](https://user-images.githubusercontent.com/93958596/146877666-981bede4-22f5-4a6f-9034-3b82967dea68.png)
+    
+    VTh = (5.6 kΩ / (10 kΩ + 5.6 kΩ)) * 32 V = 11.49 V
+    Para hallar RTh se reemplaza el volatje por un cortocircuito
+
+![image](https://user-images.githubusercontent.com/93958596/146877702-e385396c-cd0e-47f9-a373-634844a2291d.png)
+
+    RTh = 10 kΩ + [(10 kΩ * 5.6 kΩ) / (10 kΩ + 5.6 kΩ)]*2 = 17.18 kΩ
+    Entonces ITh = 11.49 V / 17.18 kΩ = 2.28 mA
+    
+    b)	El voltaje de A a B es igual al voltaje entre a y b:
+
+![image](https://user-images.githubusercontent.com/93958596/146877787-d35d4ef6-7ca9-4cd2-805c-1cc60d8afe05.png)
+
+    VTh = (10 kΩ / (5.6 kΩ + 10 kΩ)) * 15 V = 9.62 V
+    Para hallar RTh se reemplaza el volatje por un cortocircuito
+
+![image](https://user-images.githubusercontent.com/93958596/146877825-9d75963b-027b-4ff5-99b0-064c88d6e683.png)
+
+    RTh = 5.6 kΩ + [(10 kΩ * 5.6 kΩ) / (10 kΩ + 5.6 kΩ)]*2 = 12.78 kΩ
+    Entonces ITh = 9.62 V / 12.78 kΩ = 1.35 mA
+
+9. Con el teorema de Thevenin, determine la corriente a través de la carga RL en la figura 8-77.
+
+![image](https://user-images.githubusercontent.com/93958596/146877904-7d54e4df-38fe-4bda-b7e9-54d97f97333d.png)
+
+    Apartando RL
+    VTh = (5.6 kΩ / (10 kΩ + 5.6 kΩ)) * 32 V = 11.49 V
+    IRL = VTh / RL = 11.49 V / 15 kΩ = 0.116 mA = 116 µA
+
+10. Determine el equivalente de Thevenin para el circuito externo al amplificador de la figura 8-79.
+
+![image](https://user-images.githubusercontent.com/93958596/146877966-4ded8b36-0996-4308-b242-99fc932f36dc.png)
+
+Redibujando:
+
+![image](https://user-images.githubusercontent.com/93958596/146877997-9467f697-3e5e-40e0-a683-432efa0ecc62.png)
+
+    VTh = (776.47 Ω / (100 Ω +776.47Ω)) * (5 – 1) V = 1.1 V
+    Reemplazando las fuentes de voltaje con cortocircuito:
+
+![image](https://user-images.githubusercontent.com/93958596/146878046-b1137401-ca46-4e75-a56e-a8a2a45e6db3.png)
+
+    Las tres resistencias están en paralelo
+    1/RTh = 1/100 Ω + 1/1200 Ω + 1/2200 Ω = 0.01129 Ω
+    RTh = 88.57 Ω
+
+11. Determine la corriente a través del resistor de carga en el circuito puente de la figura 8-81
+
+![image](https://user-images.githubusercontent.com/93958596/146878104-525d9f98-bd9e-4091-abf9-15fbb8f49b49.png)
+
+Redibujando:
+
+![image](https://user-images.githubusercontent.com/93958596/146878128-3450b337-cb81-43de-ac16-6a90942d6022.png)
+
+    VTh = (2.2 kΩ / 1 kΩ + 2.2 kΩ) * 12 V – (1.2 kΩ / 0.82 kΩ + 1.2 kΩ) * 12 V = 6.38 V 
+    RTh = (1 kΩ * 2.2 kΩ / 1 kΩ + kΩ) + (0.82 kΩ * 1.2 kΩ/0.82 kΩ + 1.2 kΩ) = 1.17 kΩ
+    VL = (10 kΩ / 10 kΩ + 1.17 kΩ) * 6.38 V = 1 V
+    IL = 1 V / 10 kΩ = 0.1 mA = 100 µA
+
+12. Para cada uno de los circuitos mostrados en la figura 8-76, determine el equivalente Norton visto por RL
+
+![image](https://user-images.githubusercontent.com/93958596/146878178-2d495edb-d33a-4804-82ee-87d198af3180.png)
+
+    Se coloca un cortocircuito entre A y B, teniendo como Rt:
+    Rt = 100 Ω + 47 Ω + (27Ω * 75Ω / 27Ω + 75Ω) = 166.85 Ω
+    It = 25 V / 166.85 Ω = 0.1498 A = 149.8 mA
+    IN = (75 Ω / 75 Ω + 27 Ω) * 149.8 mA = 110.15 mA
+    Se reemplaza la fuente de voltaje con un cortocircuito:
+    RN = [(100 Ω + 47 Ω) * 75 Ω] / [(100 Ω + 47 Ω) + 75 Ω] + 27 Ω = 76.66 Ω
+
+![image](https://user-images.githubusercontent.com/93958596/146878226-bd9c84c1-fdcc-47c3-b94e-dac7e9ea029c.png)
+
+    Se coloca un cortocircuito entre A y B, teniendo como Rt:
+    Rt = (100 Ω * 270 Ω / 100 Ω + 270 Ω) = 72.97 Ω
+    It = 3 V / 72.97 Ω = 0.0416 A = 41.6 mA
+    IN = (100 Ω / 100 Ω + 270 Ω) * 41.6 mA = 11.24 mA
+    Se reemplaza la fuente de voltaje con un cortocircuito:
+    RN = (100 Ω * 270 Ω / 100 Ω + 270 Ω) = 72.97 Ω
+
+![image](https://user-images.githubusercontent.com/93958596/146878259-d933fb63-bb65-4d5d-8c65-540d13c69d86.png)
+
+    Se coloca un cortocircuito entre A y B, teniendo como Rt:
+    Rt = (100 kΩ * 56 kΩ / 100 kΩ + 56 kΩ) = 35.9 kΩ
+    It = (15 – 10) V / 35.9 kΩ = 0.1393 mA = 139.3 µA
+    IN = (56 kΩ / 56 kΩ + 100 kΩ) * 139.3 µA = 50 mA
+    Se reemplaza la fuente de voltaje con un cortocircuito:
+    RN = (100 kΩ * 56 kΩ / 100 kΩ + 56 kΩ) = 35.9 kΩ
+
+![image](https://user-images.githubusercontent.com/93958596/146878303-7fa32fee-8878-43c9-87bb-ac58ec32d157.png)
+
+    Se coloca un cortocircuito entre A y B, teniendo como Rt:
+    Req1 = 2.2 kΩ + 1 kΩ = 3.1 kΩ
+    Rt = (3.2 kΩ * 2.2 kΩ / 3.2 kΩ + 2.2 kΩ) = 1.3 kΩ
+    It = 0.1 A
+    Ix = (1.3 kΩ / 3.1 kΩ) * 0.1 A = 0.0419 A 
+    IN= 0.1 A – 0.0419 A = 0.0581 A = 58.1 mA
+    Se reemplaza la fuente de voltaje con un cortocircuito:
+    RN = (3.2 kΩ * 2.2 kΩ / 3.2 kΩ + 2.2 kΩ) = 1.3 kΩ
