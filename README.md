@@ -76,16 +76,27 @@ En el diagrama la R11, R10, R9, R8, R7, R6 y R5 están conectadas en serie la co
 ![image](https://user-images.githubusercontent.com/94153604/146865636-0eafcc56-d6f0-4cef-bb64-fe788190fb48.png)
 
 IT = (15/106) 
+
 IT = 0.14 mA
+
 I3  = I2 = (133/100) x 0.14
-I3  = I2 = 0.18 Ma
+
+I3  = I2 = 0.18 mA
+
 I4 = (15/27) x 0.14 
+
 I4 = 0.56 mA
+
 VA = (56 / 133) x 15 
+
 VA = 6.32 V
+
 VB = (100 / 133) x 15
+
 VB = 11.28 V
+
 VC = (27 / 133) x 15 
+
 VC = 3.05 V
 
 ![image](https://user-images.githubusercontent.com/94153604/146865665-ce694320-88bc-4a36-9079-3dd48df3b148.png)
